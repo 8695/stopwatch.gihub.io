@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="display-counter">
+        <!--stop watch heading-->
+        <div id="heading"><h1 class="text">Stop Watch</h1></div>
+        <div class="container">
+            <div class="clock">
+                <!-- clock hands and numbers -->
+              <div style="--clr: #ff3d58; --h: 74px" id="hour" class="hand">
+                <i></i>
+              </div>
+              <div style="--clr: #00a6ff; --h: 84px" id="min" class="hand">
+                <i></i>
+              </div>
+              <div style="--clr: #ffffff; --h: 94px" id="sec" class="hand">
+                <i></i>
+              </div>
+            <!--clock number-->
+              <span style="--i: 1"><b>1</b></span>
+              <span style="--i: 2"><b>2</b></span>
+              <span style="--i: 3"><b>3</b></span>
+              <span style="--i: 4"><b>4</b></span>
+              <span style="--i: 5"><b>5</b></span>
+              <span style="--i: 6"><b>6</b></span>
+              <span style="--i: 7"><b>7</b></span>
+              <span style="--i: 8"><b>8</b></span>
+              <span style="--i: 9"><b>9</b></span>
+              <span style="--i: 10"><b>10</b></span>
+              <span style="--i: 11"><b>11</b></span>
+              <span style="--i: 12"><b>12</b></span>
+            </div>
+          </div>
+        <!-- create counter display -->
+            <div class="timer-display">
+                00 : 00 : 00 :00
+            </div>
+        <!--  create button -->
+        <div class="buttons">
+            <button  id="start-btn" class="btn" style="--clr: red">start</button>
+            <button id="stop-btn" class="btn" style="--clr: green">stop</button>
+            <button id="reset-btn" class="btn" style="--clr: blue">reset</button>
+        </div>
+        
+    </div>    
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
