@@ -63,7 +63,8 @@ function startTimer(){
     let miliString = milisecond < 10 ? `0${milisecond}` : milisecond;
     let secString =  second < 10 ? `0${second}` : second;
     let minString = minute < 10 ? `0${minute}` : minute;
-    timerDisplay.innerHTML = `${minString} : ${secString} : ${miliString}`;
+    let hrString = hour< 10 ? `0${minute}` : hour;
+    timerDisplay.innerHTML = `${hrString} : ${minString} : ${secString} : ${miliString}`;
 
     // new date method
     const date = new Date();
